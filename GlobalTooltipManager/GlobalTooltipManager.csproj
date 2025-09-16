@@ -1,10 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0-windows</TargetFramework>
-	<UseWPF>true</UseWPF>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+	  <TargetFramework>net8.0-windows</TargetFramework>
+	  <UseWPF>true</UseWPF>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+
+	  <!-- NuGet Metadata -->
+	  <Authors>Lignuz</Authors>
+	  <Company>metaphor0321</Company>
+	  <VersionPrefix>0.0.0.1</VersionPrefix>
+	  <PackageId>Lignuz.Wpf.ToolTips</PackageId>
+	  <AssemblyName>Lignuz.Wpf.ToolTips</AssemblyName>
+	  <RootNamespace>Lignuz.Wpf.ToolTips</RootNamespace>
+	  <Description>WPF Global Tooltip Close/Reopen Utility</Description>
+	  <PackageProjectUrl>https://github.com/Lignuz/GlobalTooltipManager</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/Lignuz/GlobalTooltipManager.git</RepositoryUrl>
+	  <PackageTags>WPF, ToolTip</PackageTags>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageIcon>tooltip.png</PackageIcon>
+	  <Copyright>Copyright 2025 metaphor0321, All Rights Reserved.</Copyright>
   </PropertyGroup>
 
 </Project>
